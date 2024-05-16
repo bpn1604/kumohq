@@ -1,0 +1,271 @@
+body{
+  height: 100%;
+  width: 100%;
+  font-family: "Poetsen One", sans-serif;
+  font-style: normal;
+  overflow-x: hidden;
+}
+
+.top1{
+  background: url('https://eep.io/images/yzco4xsimv0y/5EODYdgDf1houB82RfR8e0/d3a56636ba2d48943ab54513277458bc/Homepage-Feature-Card-Automations-Desktop-INT__1_.png?w=630&fm=avif&q=60');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.top2{
+  background: url('https://eep.io/images/yzco4xsimv0y/3JSoRinRB2VTmBiD7NyEUg/f48b012abacf15bc323135c3d9e3cbe2/Homepage-Feature-Card-AI-Desktop.png?w=630&fm=avif&q=60');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.top3{
+  background: url('https://eep.io/images/yzco4xsimv0y/6QVNtP8As7OHsx5mivPn8f/c802814a27e36ee4a016556501e6ec85/Homepage-Feature-Card-Segmentation-Desktop.png?w=630&fm=avif&q=60');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.top4{
+  background: url('https://eep.io/images/yzco4xsimv0y/6JxWAec8e3X3OMFmX9dVvd/9f34fab9dcbe5d69c4faf2c0d1b9b5ae/Homepage-Feature-Card-Analytics-Reporting-Desktop.png?w=630&fm=avif&q=60');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hscroll{
+  display: none;
+}
+
+.imghai:hover{
+  scale: 1.05;
+  transition: 1s ease-in-out;
+}
+
+button:hover{
+  scale:1.1;
+  border-bottom: 5px solid black;
+}
+
+@media (max-width:950px){
+  .component-3 img{
+  width: 60%
+}
+.down button{
+  display: none;
+}
+}
+
+@media(max-width:862px) {
+  .navbar{
+    font-size:0.8rem
+  }
+  .right .one{
+    /* padding: 1rem; */
+    /* height: 50vh; */
+    margin-top: 2rem;
+  }
+  .scroll{
+    display: none;
+  }
+  .hscroll{
+    display: block;
+  }
+}
+@media (max-width:800px){
+  .sub-home{
+    height: 401vh !important;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+  }
+}
+@media(max-width:795px) {
+  .navbar .right{
+    display: none;
+  }
+  .pp{
+    font-size: 1.5rem;
+  }
+  .hpp{
+    font-size: 2.5rem;
+  }
+  .card1 h1{
+    font-size: 1.3rem;
+  }
+  
+  .down button{
+    display: block;
+  }
+  
+  .left .head{
+    font-size: 1.5rem;
+  }
+  .left .subh{
+    font-size: 1rem;
+  }
+  .component-3 img{
+    height: 20rem;
+    width: 20rem;
+  }
+  .component-7 .right div{
+    margin-top: 3rem;
+  }
+  
+}
+@media(max-width:665px) {
+  .navbar {
+    font-weight: bold;
+    font-size: 0.6rem;
+  }
+  .navbar img{
+    display: none;
+  }
+  .hpp{
+    font-size: 2rem;
+  }
+  .pp{
+    font-size: 1rem;
+  }
+  .component-5{
+    width: 90%;
+    font-size: 1.5rem;
+  }
+  .down p{
+    font-size: 1.2rem;
+  }
+  .component-7 img{
+    display: none;
+  }
+  .component-7 div{
+    width: 100%;
+    height: 26rem;
+    text-align: center;
+  }
+  
+  .card1{
+    height: 50rem;
+  }
+}
+@media(max-width:614px) {
+  
+  
+  
+  .component-2 .pp{
+    font-size: 1rem;
+  }
+  .component-3 .pp{
+    font-size: 1.5rem;
+  }
+  .component-3 img{
+    height: 15rem;
+    width: 15rem;
+  }
+  .footer{
+    padding:2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer p{
+    margin: 0.5rem;
+  }
+  .component-3{
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .component-3 .left{
+    width:80% !important;
+    text-align: center !important;
+  }
+  .component-3 .left button{
+    margin: 1rem auto !important;
+    width: 10rem !important;
+  }
+  .component-3 img{
+    width:80% !important
+  }
+  .component-7{
+    height: 50vh !important;
+  }
+  
+}
+@media(max-width:552px) {
+  
+  /* .hpp{
+    font-size: 1.2rem;
+  } */
+  .pp{
+    font-size: 0.9rem !important;
+  }
+  
+  .left .head{
+    font-size: 1rem !important;
+  }
+  .left .subh{
+    font-size: 0.7rem !important;
+  }
+  .component-3 .pp{
+    font-size: 1rem !important;
+  }
+  .component-7 .right div p{
+    font-size: 1.2rem !important;
+  }
+  
+  /* .down p{
+    font-size: 1rem;
+  }
+
+  .down button{
+    font-size: 0.8rem;
+    width: 10rem;
+  } */
+  .component-2{
+    flex-direction: column  !important;
+  }
+  .component-2 .left{
+    
+    width: 100%;
+    text-align: center !important;
+  }
+  .head{
+    margin: 1rem !important;
+  }
+  .cont{
+    width: 80% !important;
+    margin: auto 1rem !important;
+    gap:2rem !important
+  }
+  
+  .navbar img{
+    display: block;
+  }
+  .navbar .center,.navbar .right{
+    display: none !important;
+  }
+  .component-5{
+    font-size: 1rem !important;
+    height: 10vh !important;
+  }
+  .sub-home{
+    height: 401vh !important;
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+  }
+}
+
+@media(max-width:400px) {
+  .hpp{
+    font-size: 1.2rem !important ;
+  }
+  .component-5{
+    font-size: 0.7rem !important;
+  }
+  .pp{
+    font-size: 0.7rem !important;
+  }
+}
+
+@media(max-width:300px) {
+  .down button{
+    display: none !important;
+  }
+}
+
